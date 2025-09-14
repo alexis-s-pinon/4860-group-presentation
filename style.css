@@ -1,3 +1,35 @@
+table.careers {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 1rem 0;
+  color: #333; /* default text color */
+}
+
+table.careers th, table.careers td {
+  border: 1px solid #d1a1a1; /* soft border matching pink tones */
+  padding: 10px 12px;
+  text-align: left;
+}
+
+table.careers th {
+  background-color: #f28b82; /* soft pink header */
+  color: #333; /* dark text for contrast */
+}
+
+table.careers tr:nth-child(even) td {
+  background-color: #fce8e6; /* very light pink/cream */
+}
+
+table.careers tr:nth-child(odd) td {
+  background-color: #f7c6c7; /* slightly darker pink */
+}
+
+table.careers tr:hover td {
+  background-color: #f4a7a7; /* hover effect, darker pink */
+  color: #000;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -37,7 +69,7 @@ section {
   background: white;
   padding: 2rem;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
@@ -62,4 +94,15 @@ footer {
     margin: 1rem;
     padding: 1rem;
   }
+
+  img {
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+
+
 }
