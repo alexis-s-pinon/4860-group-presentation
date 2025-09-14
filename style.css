@@ -1,0 +1,108 @@
+table.careers {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  margin: 1rem 0;
+  color: #333; /* default text color */
+}
+
+table.careers th, table.careers td {
+  border: 1px solid #d1a1a1; /* soft border matching pink tones */
+  padding: 10px 12px;
+  text-align: left;
+}
+
+table.careers th {
+  background-color: #f28b82; /* soft pink header */
+  color: #333; /* dark text for contrast */
+}
+
+table.careers tr:nth-child(even) td {
+  background-color: #fce8e6; /* very light pink/cream */
+}
+
+table.careers tr:nth-child(odd) td {
+  background-color: #f7c6c7; /* slightly darker pink */
+}
+
+table.careers tr:hover td {
+  background-color: #f4a7a7; /* hover effect, darker pink */
+  color: #000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background: #006d77;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background: #83c5be;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: 073b4c;
+  text-decoration: none;
+  margin: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #006d77;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #006d77;
+  color: white;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  section {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+
+
+}
